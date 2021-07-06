@@ -19,7 +19,7 @@ locale                   : "South Korea"
 title                    : "1 level snail"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Seok_Jong"
+name                     : "현석종"
 description              : "쪼렙이다. 말로하자."
 url                      : "https://seok-jong.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -101,11 +101,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Seok-Jong"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  bio              : "쪼렙이다. 말로하자."
+  location         : "South Korea"
+  email            : "sjhyeon1222@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
