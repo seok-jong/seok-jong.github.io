@@ -20,7 +20,7 @@ title                    : "1 level snail"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Seok_Jong"
-description              : "AI CV"
+description              : "쪼렙이다. 말로하자."
 url                      : "https://seok-jong.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
