@@ -121,10 +121,10 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-       url: "https://github.com/seok-jong"
+      # url: "https://github.com/seok-jong"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-       url: "https://www.instagram.com/seokjong_bounce/"
+      # url: "https://www.instagram.com/seokjong_bounce/"
 
 # Site Footer
 footer:
