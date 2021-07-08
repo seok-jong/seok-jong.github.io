@@ -1,6 +1,6 @@
 ---
 title: "posts by category"
-permalink: /ai/
+permalink: /AI/
 layout: posts
 author_profile: true
 ---
