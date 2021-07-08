@@ -1,11 +1,12 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  - title: "AI"
-    url: /ai/
+  #- title: "Quick-Start Guide"
+  #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   - title: "Home"
     url: https://seok-jong.github.io/ai/
+  - title: "AI"
+    url: /ai/
+  
     
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
