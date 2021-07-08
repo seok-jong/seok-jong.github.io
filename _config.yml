@@ -19,7 +19,7 @@ locale                   : "South Korea"
 title                    : "1 level snail"
 title_separator          : ""
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "쪼렙이다. 말로하자."
+name                     : "쪼렙이다. 말로 하자."
 description              : "Ai린이"
 url                      : "https://seok-jong.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -121,10 +121,10 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+       url: "https://github.com/seok-jong"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+       url: "https://www.instagram.com/seokjong_bounce/"
 
 # Site Footer
 footer:
