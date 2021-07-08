@@ -3,9 +3,9 @@ main:
   #- title: "Quick-Start Guide"
   #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   - title: "Home"
-    url: https://seok-jong.github.io/ai/
+    url: https://seok-jong.github.io/
   - title: "AI"
-    url: /ai/
+    url: /AI/
   
     
   # - title: "About"
