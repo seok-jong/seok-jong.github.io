@@ -1,5 +1,5 @@
 ---
-title: "posts by category"
+title: "Artificial Intelligence"
 permalink: /AI/
 layout: posts
 author_profile: true
