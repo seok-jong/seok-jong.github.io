@@ -1,7 +1,6 @@
 ---
-title: "Artificial Intelligence"
-permalink: /AI/
-layout: AI
+title: "Post by Category"
+layout: categories
+permalink: /categories/
 author_profile: true
 ---
-
