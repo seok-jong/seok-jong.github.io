@@ -1,7 +1,7 @@
 ---
 title: "Artificial Intelligence"
 permalink: /AI/
-layout: posts
+layout: AI
 author_profile: true
 ---
 
