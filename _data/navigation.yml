@@ -7,7 +7,7 @@ main:
   - title: "Monthly"
     url: /month-archive/ 
   - title: "Category"
-    url: /categoies/
+    url: /categories/
   - title: "Tags"
     url: /tags/
     
