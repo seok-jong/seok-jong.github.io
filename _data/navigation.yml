@@ -4,11 +4,11 @@ main:
   #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   - title: "Home"
     url: https://seok-jong.github.io/
-  - title: "AI"
-    url: /AI/
   - title: "Monthly"
     url: /month-archive/ 
- 
+  - title: "AI"
+    url: /AI/
+    
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
