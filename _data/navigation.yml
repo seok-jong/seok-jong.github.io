@@ -8,6 +8,8 @@ main:
     url: /month-archive/ 
   - title: "AI"
     url: /AI/
+  - title: "Tag"
+    url: /tag/
     
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
