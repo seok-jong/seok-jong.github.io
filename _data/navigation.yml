@@ -6,10 +6,10 @@ main:
     url: https://seok-jong.github.io/
   - title: "Monthly"
     url: /month-archive/ 
-  - title: "AI"
-    url: /AI/
-  - title: "Tag"
-    url: /tag/
+  - title: "Category"
+    url: /categoies/
+  - title: "Tags"
+    url: /tags/
     
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
