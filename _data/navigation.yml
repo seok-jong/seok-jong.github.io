@@ -6,8 +6,9 @@ main:
     url: https://seok-jong.github.io/
   - title: "AI"
     url: /AI/
-  
-    
+  - title: "Monthly"
+    url: /month-archive/ 
+ 
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
