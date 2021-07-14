@@ -1,6 +1,6 @@
 ---
 title: "ai"
-permalink: /ai/
+permalink: /AI/
 layout: posts
 author_profile: true
 ---
