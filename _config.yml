@@ -53,7 +53,7 @@ comments:
   staticman:
     branch               : # "master"
     endpoint             : # "https://{your Staticman v3 API}/v3/entry/github/"
-reCaptcha:
+reCaptcha:omments 항목의 provider는 disqus로 입력하고, shortname은 Disqus에서 사이트 등록하면서 받아낸 Disqus-shortname을 기입하자.
   siteKey                :
   secret                 :
 atom_feed:
@@ -130,7 +130,7 @@ author:
 footer:
   links:
     - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
+      icon: "fab fa-fw fa-twitter-square"omments 항목의 provider는 disqus로 입력하고, shortname은 Disqus에서 사이트 등록하면서 받아낸 Disqus-shortname을 기입하자.
       # url:
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
@@ -284,6 +284,6 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true # true
       share: true
       related: true
