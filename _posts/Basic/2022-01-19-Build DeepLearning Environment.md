@@ -1,8 +1,8 @@
 ---
 
-title: CUDA/cuDNN/Anaconda/nvidia-driver
+title: Build DeepLearning Environment
 
-"date": "2022/01/19 11:09"
+"date": "2022/01/19 11:30"
 
 "categories": 
 - basic
@@ -38,13 +38,15 @@ Cuda compilation tools, release 10.1, V10.1.243
 이후 아래 과정을 진행해 준다. 
  
 
-1. 압축해제   
+1. 압축해제
+
 ```
 $ tar -xvzf cudnn-10.1-linux-x64-v7.6.5.32.tgz
 # 버전에 맞게 수정 
 ```
 
-2. cuDNN을 CUDA와 연동   
+2. cuDNN을 CUDA와 연동  
+
 ```
 $ sudo cp cuda/include/cudnn.h /usr/lib/cuda/include/
 $ sudo cp cuda/lib64/libcudnn* /usr/lib/cuda/lib64/
@@ -55,6 +57,7 @@ $ sudo chmod a+r /usr/lib/cuda/lib64/libcudnn*
 ```
 
 3. 환경변수 등록     
+
 ```
 $ sudo apt install vim 
 $ sudo vim ~/.bashrc
@@ -71,7 +74,8 @@ export LD_LIBRARY_PATH=/usr/lib/cuda/include:$LD_LIBRARY_PATH
 # :q(vi 종료) 
 ```  
   
-## 3. nvidia driver 설치   
+## 3. nvidia driver 설치  
+ 
 
 ```
 $ ubuntu-drivers devices
