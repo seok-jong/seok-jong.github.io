@@ -14,13 +14,14 @@ tags:
 
 ---
 
+  
 
+# 딥러닝 환경 구축   
 
-# 딥러닝 환경 구축 
+> 부팅usb를 통해 ubuntu를 설치하고 아무것도 하지 않은 상태 기준  
 
-> 부팅usb를 통해 ubuntu를 설치하고 아무것도 하지 않은 상태 기준
+## 1. CUDA 설치   
 
-## 1. CUDA 설치 
 ```
 $ sudo apt install nvidia-cuda-toolkit
 $ nvcc -V
@@ -31,19 +32,19 @@ Cuda compilation tools, release 10.1, V10.1.243
 ```
 
 
-## 2. Cudnn 설치 
+## 2. Cudnn 설치   
 [cudnn 설치 경로 ](https://developer.nvidia.com/rdp/cudnn-archive)에서 (1.)에서 설치한 CUDA의 버전에 맞게 Cudnn을 설치해 준다. (for Linux [x86]으로 설치 )
 
 이후 아래 과정을 진행해 준다. 
  
 
-1. 압축해제 
+1. 압축해제   
 ```
 $ tar -xvzf cudnn-10.1-linux-x64-v7.6.5.32.tgz
 # 버전에 맞게 수정 
 ```
 
-2. cuDNN을 CUDA와 연동 
+2. cuDNN을 CUDA와 연동   
 ```
 $ sudo cp cuda/include/cudnn.h /usr/lib/cuda/include/
 $ sudo cp cuda/lib64/libcudnn* /usr/lib/cuda/lib64/
@@ -53,7 +54,7 @@ $ sudo chmod a+r /usr/lib/cuda/include/cudnn.h
 $ sudo chmod a+r /usr/lib/cuda/lib64/libcudnn*
 ```
 
-3. 환경변수 등록 
+3. 환경변수 등록     
 ```
 $ sudo apt install vim 
 $ sudo vim ~/.bashrc
@@ -68,9 +69,9 @@ export LD_LIBRARY_PATH=/usr/lib/cuda/include:$LD_LIBRARY_PATH
 # ESC누른후 :(쉬프트 + 세미콜론)입력후 명령어 입력!
 # :w(저장)
 # :q(vi 종료) 
-```
-
-## 3. nvidia driver 설치 
+```  
+  
+## 3. nvidia driver 설치   
 
 ```
 $ ubuntu-drivers devices
@@ -108,10 +109,10 @@ $ nvidia-smi
 
 ## 5. anaconda / VScode 설치 
 
-https://www.anaconda.com/products/individual#windows
-위 링크에서 anaconda를 설치하고 
-https://code.visualstudio.com/download
-위 링크에서 VScode를 설치한다. 
+https://www.anaconda.com/products/individual#windows  
+위 링크에서 anaconda를 설치하고   
+https://code.visualstudio.com/download  
+위 링크에서 VScode를 설치한다.     
 
 VScode가 설치되면 python Extension을 설치한다. 
 
@@ -132,7 +133,7 @@ VScode가 설치되면 python Extension을 설치한다.
 
 
 ## reference 
-https://opentutorials.org/course/730/4561
-https://dolgogae.tistory.com/m/2?category=937082
-https://linuxhint.com/fix-vim-command-not-found-error-in-ubuntu/
-https://taeguu.tistory.com/72
+https://opentutorials.org/course/730/4561  
+https://dolgogae.tistory.com/m/2?category=937082  
+https://linuxhint.com/fix-vim-command-not-found-error-in-ubuntu/  
+https://taeguu.tistory.com/72  
