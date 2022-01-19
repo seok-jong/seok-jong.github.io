@@ -1,6 +1,6 @@
 ---
 
-title: 딥러닝 환경 구축 
+title: CUDA/cuDNN/Anaconda/nvidia-driver
 
 "date": "2022/01/19 11:09"
 
